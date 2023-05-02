@@ -1,0 +1,48 @@
+.lntd {
+    background-color: rgb(214, 218, 221);
+}
+
+.lntd, .srtd {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+.lntd {
+    text-align: right;
+    min-width: 75px;
+}
+
+.lntdf {
+    vertical-align: top;
+}
+
+.srtd {
+    width: 100%;
+}
+
+.srtdf::selection {
+    background-color: rgba(251, 255, 0, 0.185);
+}
+
+tr {
+    padding: 0px;
+}
+
+.trf:hover {
+    background-color: rgba(0, 0, 255, 0.055);
+}
+
+td, tr, table {
+    border-collapse: collapse;
+}
+
+.lna {
+    color: blue;
+    text-decoration: underline;
+}
+
+.lna:hover {
+    color: red;
+}
